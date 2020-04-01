@@ -140,7 +140,7 @@ nav {
 /* END HEADER */
 /* ASIDE*/
 .nav-bar {
-  transform: translateY(-150px);
+  transform: translateY(-105px);
   display: flex;
   flex-direction: column;
   padding: 0 0 0 105px;
