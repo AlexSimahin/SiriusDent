@@ -59,6 +59,10 @@
 
 /* END Services*/
 
+@media screen and (max-height: 950px) {
+
+}
+
 @media screen and (max-width: 1400px) {
   /*paddings*/
   header {
