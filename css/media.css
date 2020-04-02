@@ -1,0 +1,134 @@
+@media screen and (max-width: 1650px) {
+  html {
+    /*font-size: 16px;*/
+  }
+
+  h1 {
+    font-size: 56px;
+    line-height: 59px;
+  }
+
+  .about-us-block p, .contacts-block p {
+    padding-right: 30px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .about-us-block span, .partners-block span, .contacts-block span {
+    font-size: 40px;
+  }
+
+  /* ----- Services -----*/
+
+  .services {
+    grid-template-columns: 482px 1fr;
+  }
+
+  .services-cards {
+    width: 710px;
+  }
+
+  .first-level-cards,
+  .second-level-cards,
+  .third-level-cards {
+    width: 200px;
+    height: 490px;
+  }
+
+  .card {
+    width: 200px;
+    height: 220px;
+  }
+
+  .left-colorBlock {
+    height: 220px;
+  }
+
+  .card-icon {
+    margin-bottom: 20px;
+    width: 88px;
+    height: 88px;
+  }
+
+  .bg-services {
+    min-width: 526px;
+    /*left: 40%;*/
+  }
+
+}
+
+/* END Services*/
+
+@media screen and (max-width: 1400px) {
+  /*paddings*/
+  header {
+    padding: 0 80px;
+  }
+  .nav-bar {
+    padding: 0 0 0 80px;
+  }
+  /*--------*/
+
+  .wrapper {
+    grid-template-columns: 300px 1fr;
+  }
+
+
+  /* ----- 1-Main -----*/
+  h1 {
+    font-size: 46px;
+    line-height: 49px;
+  }
+
+  /* ----- 4-Services -----*/
+
+  .services {
+    grid-template-columns: 410px 1fr;
+  }
+
+  .services-cards {
+    width: 605px;
+  }
+
+  .first-level-cards,
+  .second-level-cards,
+  .third-level-cards {
+    width: 180px;
+    height: 490px;
+  }
+
+  .card {
+    width: 180px;
+    height: 200px;
+  }
+
+  .card-text {
+    font-size: 20px;
+    width: 150px;
+  }
+
+  .info-area {
+    width: 85%;
+  }
+
+  .left-colorBlock {
+    height: 200px;
+  }
+
+  .card-icon {
+    margin-bottom: 15px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .bg-services {
+    min-width: 526px;
+    /*left: 24%;*/
+  }
+
+}
+
+/* END Services*/
+
+
+}

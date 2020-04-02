@@ -29,6 +29,9 @@ font-family: 'Bebas Neue', sans-serif;*/
 }
 
 /* ----------- */
+html {
+  /*font-size: 20px;*/
+}
 body {
   font-family: 'Roboto', sans-serif;
   color: #333333;
@@ -97,6 +100,7 @@ nav {
   margin-left: 14px;
   font-style: normal;
   font-weight: 500;
+  /*font-size: 1em;*/
   font-size: 20px;
   line-height: 23px;
   color: #333333;
@@ -385,7 +389,7 @@ h1 .h1-color-edit {
 }
 
 .about-us-container {
-  padding-top: 45px;
+  padding-top: 165px;
 }
 
 .about-us-block span,
@@ -551,7 +555,7 @@ h1 .h1-color-edit {
   z-index: 3;
   bottom: 0;
   right: 0;
-  /*max-width: 526px;*/
+  min-width: 526px;
   width: 55%;
   /*max-height: 786px;*/
   height: 83%;
