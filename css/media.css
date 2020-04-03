@@ -3,15 +3,20 @@
     /*font-size: 16px;*/
   }
 
-
-  .about-us-block p, .contacts-block p {
+  .about-us-block p,
+  .sponsor-container p {
     padding-right: 30px;
     font-size: 24px;
     line-height: 28px;
   }
 
-  .about-us-block span, .partners-block span, .contacts-block span {
+  .about-us-block span,
+  .partners-block span,
+  .contacts-block span,
+  .team-block~span,
+  .schedule-block>span {
     font-size: 40px;
+    line-height: 40px;
   }
 
   /*Wrapper*/
@@ -19,8 +24,8 @@
     grid-template-columns: 282px 1fr;
     grid-template-rows: 130px 0fr;
   }
-  /*--------*/
 
+  /*--------*/
   /* ---- HEADER ---- */
   header {
     height: 77px;
@@ -28,8 +33,70 @@
     margin: 30px 0;
   }
 
+  .left-side {
+    width: 430px;
+  }
+
+  .right-side {
+    width: 640px;
+    justify-content: space-between;
+  }
+
+  .contact-numbers {
+    width: 185px;
+  }
+
+  .menu-text {
+    font-size: 17px;
+  }
+
+  .logo {
+    width: 191px;
+    height: 66px;
+  }
+
+  .telephone {
+    margin-left: 18px;
+  }
+
+  .telephone span {
+    font-size: 17px;
+  }
+
+  .button-help {
+    width: 207px;
+    height: 51px;
+    font-size: 21px;
+  }
+
+  .emergency-help {
+    padding: 0 30px;
+  }
+
+  .social {
+    width: 133px;
+  }
+
+  .social a {
+    width: 28px;
+    height: 28px;
+  }
+
+  /* ----- END HEADER ----- */
+  /* ----- ASIDE ----- */
+  .nav-bar {
+    padding: 0 0 0 90px;
+  }
+
+  .nav-bar a {
+    margin-bottom: 26px;
+    font-size: 17px;
+  }
+
+  /* ----- END ASIDE*/
   /* ----- 1-Main ----- */
   .learn-more {
+    max-height: 825px;
     height: 100%;
     padding-top: 150px;
   }
@@ -44,12 +111,132 @@
     margin-top: 70px;
   }
 
+  .read-more {
+    width: 172px;
+    height: 52px;
+    font-size: 21px;
+  }
+
+  .arrow-href {
+    width: 52px;
+    height: 52px;
+  }
+
+  .arrow-href img {
+    width: 22px;
+    height: 16px;
+  }
+
+  .info {
+    width: 353px;
+    height: 133px;
+    padding: 24px 0 0 42px;
+  }
+
+  .info-number {
+    font-size: 21px;
+  }
+
+  .block-line {
+    width: 36px;
+    height: 2px;
+    margin: 7px 0 18px 0;
+  }
+
+  .info-method {
+    font-size: 24px;
+  }
+
+  .slider {
+    height: 133px;
+  }
+
+  .arrow-slider {
+    width: 133px;
+    height: 133px;
+  }
+
+  .dotts-bg {
+    width: 354px;
+    height: 203px;
+  }
+
   /* ----- END MAIN*/
+  /* ----- 2 About us*/
+  .about-us-imageBlock {
+    padding-top: 15px;
+  }
 
+  .bg-color-about-us,
+  .bg-color-sponsor {
+    width: 65%;
+    height: 60%;
+  }
+
+  .bg-adout-us,
+  .bg-sponsor {
+    width: 63%;
+    height: 65%;
+  }
+
+  .dotts-about-us,
+  .dotts-sponsor {
+    width: 267px;
+    height: 529px;
+    right: 36px;
+  }
+
+  .about-us-container {
+    padding-top: 142px;
+  }
+
+  .read-about-us {
+    margin-top: 60px;
+  }
+
+  /* ----- END About us ----- */
+  /* ----- 3-Spansor / Partners page -----*/
+  .sponsor-page {
+    padding-top: 30px;
+  }
+
+  .sponsor-container {
+    padding-top: 10px;
+  }
+
+  .sponsor-container>img {
+    max-width: 379px;
+    width: 100%;
+  }
+
+  .sponsor-phone {
+    margin-top: 50px;
+  }
+
+  .sponsor-telephone {
+    max-width: 290px;
+  }
+
+  /* ----- END 3 Page ----- */
   /* ----- 4-Services -----*/
-
   .services-page {
     grid-template-columns: 482px 1fr;
+  }
+
+  .services-block {
+    padding-top: 40px;
+  }
+
+  .services-block span {
+    font-size: 40px;
+    line-height: 40px;
+  }
+
+  .line-block-services {
+    width: 64px;
+    height: 2px;
+    background: rgba(51, 51, 51, 0.22);
+    margin: 12px 0 30px 0;
   }
 
   .services-cards {
@@ -78,33 +265,80 @@
     height: 88px;
   }
 
+  .card-text {
+    width: 160px;
+    font-size: 21px;
+    line-height: 21px;
+  }
+
   .bg-services {
     min-width: 526px;
     /*left: 40%;*/
   }
 
+  .dotts-services {
+    left: 214px;
+    max-width: 372px;
+  }
+
+  /* END 4-Services*/
+  /* ----- 5-Team page ----- */
+  .team-block {
+    padding: 50px 90px 0 0;
+  }
+
+  /* ----- END 5 Page ----- */
+  /* ----- 6-Contacts page ----- */
+  .bg-color-contacts {
+    width: 59%;
+    height: 59%;
+  }
+
+  /* Map*/
+  .map-contacts {
+    left: 80px;
+    width: 67%;
+    height: 65%;
+  }
+  /* --------*/
+  .dotts-contacts {
+    top: 60px;
+    left: 45px;
+    width: 300px;
+    height: 420px;
+  }
+  .contacts-container {
+    padding-top: 40px;
+  }
+
+  .contacts-block p,
+  .partners-block p {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .big-line-contacts {
+    width: 440px;
+    height: 2px;
+    margin-top: 35px;
+  }
 }
 
-/* END Services*/
-
-/*@media screen and (max-height: 950px) {
-
-}*/
-
 @media screen and (max-width: 1400px) {
+
   /*paddings*/
   header {
     padding: 0 80px;
   }
+
   .nav-bar {
     padding: 0 0 0 80px;
   }
-  /*--------*/
 
+  /*--------*/
   .wrapper {
     grid-template-columns: 300px 1fr;
   }
-
 
   /* ----- 1-Main -----*/
   h1 {
@@ -113,7 +347,6 @@
   }
 
   /* ----- 4-Services -----*/
-
   .services-page {
     grid-template-columns: 410px 1fr;
   }
@@ -157,18 +390,11 @@
     min-width: 526px;
     /*left: 24%;*/
   }
-
 }
 
 /* END Services*/
-
-
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1280px) {}
 
-}
-
-@media screen and (max-width: 1024px) {
-
-}
+@media screen and (max-width: 1024px) {}

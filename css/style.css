@@ -274,11 +274,13 @@ h1 .h1-color-edit {
   background: white;
   border: 2px solid #00D3BE;
   border-radius: 0px 2px 2px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: 'Bebas Neue', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
-  line-height: 24px;
   /* identical to box height */
   color: #333333;
 }
@@ -402,6 +404,7 @@ h1 .h1-color-edit {
 }
 
 .about-us-imageBlock {
+  padding-top: 20px;
   position: relative;
 }
 
@@ -447,7 +450,8 @@ h1 .h1-color-edit {
 .about-us-block span,
 .partners-block span,
 .contacts-block span,
-.team-block span {
+.team-block span,
+.schedule-block>span {
   font-family: 'Bebas Neue', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -461,7 +465,6 @@ h1 .h1-color-edit {
 }
 
 .about-us-block p,
-.contacts-block p,
 .sponsor-container p {
   max-width: 604px;
   margin-top: 46px;
@@ -473,13 +476,7 @@ h1 .h1-color-edit {
 }
 
 .read-about-us {
-  margin-top: 60px;
-}
-
-.partners-block {
   margin-top: 70px;
-  width: 439px;
-  height: 123px;
 }
 
 /* ----- END 2 Page ----- */
@@ -489,6 +486,7 @@ h1 .h1-color-edit {
   height: inherit;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-top: 40px;
 }
 
 .sponsor-imageBlock {
@@ -531,15 +529,16 @@ h1 .h1-color-edit {
 }
 
 .sponsor-container {
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
-.sponsor-container img {
+.sponsor-container>img {
   max-width: 439px;
   width: 100%;
 }
 
 .sponsor-phone {
+  max-width: 700px;
   width: 90%;
   margin-top: 60px;
   display: flex;
@@ -583,10 +582,6 @@ h1 .h1-color-edit {
   grid-template-columns: 628px 1fr;
 }
 
-.ar {
-  border: 1px solid red;
-}
-
 .services-block {
   font-family: 'Bebas Neue', sans-serif;
   position: relative;
@@ -606,13 +601,6 @@ h1 .h1-color-edit {
   height: 2px;
   background: rgba(51, 51, 51, 0.22);
   margin: 15px 0 35px 0;
-}
-
-.line-block-team {
-  width: 64px;
-  height: 2px;
-  background: rgba(51, 51, 51, 0.22);
-  margin: 15px 0 60px 0;
 }
 
 .services-cards {
@@ -778,7 +766,6 @@ h1 .h1-color-edit {
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
-
 }
 
 .teammate-job {
@@ -838,6 +825,13 @@ h1 .h1-color-edit {
   padding: 0 5px;
 }
 
+.line-block-team {
+  width: 64px;
+  height: 2px;
+  background: rgba(51, 51, 51, 0.22);
+  margin: 15px 0 60px 0;
+}
+
 .slider-linebar {
   position: relative;
   width: 216px;
@@ -865,7 +859,6 @@ h1 .h1-color-edit {
   display: flex;
   flex-direction: row;
   align-items: center;
-
 }
 
 .circle-button {
@@ -887,7 +880,6 @@ h1 .h1-color-edit {
   width: 6px;
   height: 10px;
 }
-
 
 /* ----- END 5 Page*/
 /* ----- 6-Contacts page ----- */
@@ -945,6 +937,15 @@ h1 .h1-color-edit {
   padding-top: 45px;
 }
 
+.contacts-block p,
+.partners-block p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+  color: #8D8D8D;
+}
+
 .big-line-contacts {
   width: 491px;
   height: 2px;
@@ -952,11 +953,19 @@ h1 .h1-color-edit {
   margin-top: 40px;
 }
 
-.partners-block p {
+.schedule-block {
+  margin-top: 60px;
+  width: 439px;
+  height: 123px;
+}
+
+.schedule-block-days {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, 35px);
   font-style: normal;
   font-weight: normal;
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 26px;
   color: #8D8D8D;
 }
 
