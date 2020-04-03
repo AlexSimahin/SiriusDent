@@ -36,6 +36,7 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   color: #333333;
+  cursor: default;
 }
 
 .wrapper {
@@ -46,7 +47,7 @@ body {
   overflow: hidden;
   display: grid;
   grid-template-columns: 330px 1fr;
-  grid-template-rows: 180px 0fr;
+  grid-template-rows: 150px 0fr;
 }
 
 .header {
@@ -54,7 +55,6 @@ body {
   grid-column-end: 4;
   grid-row-start: 1;
   grid-row-end: 3;
-  padding-bottom: 20px;
 }
 
 .navigation-bar {
@@ -168,7 +168,7 @@ nav {
 /* ----- END HEADER ----- */
 /* ----- ASIDE ----- */
 .nav-bar {
-  transform: translateY(-105px);
+  transform: translateY(-35px);
   display: flex;
   flex-direction: column;
   padding: 0 0 0 105px;
@@ -242,7 +242,7 @@ nav {
 }
 
 .learn-more {
-  max-height: 774px;
+  max-height: 800px;
   height: 100%;
   padding-top: 172px;
 }
@@ -265,7 +265,7 @@ h1 .h1-color-edit {
 
 .read {
   display: flex;
-  margin-top: 70px;
+  margin-top: 95px;
 }
 
 .read-more {
@@ -484,7 +484,6 @@ h1 .h1-color-edit {
 
 /* ----- END 2 Page ----- */
 /* ----- 3-Spansor / Partners page -----*/
-
 .sponsor-page {
   position: relative;
   height: inherit;
@@ -574,8 +573,6 @@ h1 .h1-color-edit {
 .read-sponsor {
   display: flex;
 }
-
-
 
 /* ----- END 3 Page ----- */
 /* ----- 4-Services page -----*/
@@ -743,7 +740,7 @@ h1 .h1-color-edit {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 60px;
+  padding: 60px 105px 0 0;
 }
 
 .team-slider {
@@ -752,7 +749,6 @@ h1 .h1-color-edit {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0 105px 0 0;
 }
 
 .team-slider-cards {
@@ -764,7 +760,7 @@ h1 .h1-color-edit {
 .card-profile {
   max-width: 380px;
   width: 100%;
-  margin-right: 5%;
+  margin-right: 6%;
 }
 
 .card-profile:last-child {
@@ -773,9 +769,7 @@ h1 .h1-color-edit {
 
 .photo-profile {
   max-width: 380px;
-  max-height: 412px;
   width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 
@@ -784,6 +778,7 @@ h1 .h1-color-edit {
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
+
 }
 
 .teammate-job {
@@ -799,6 +794,7 @@ h1 .h1-color-edit {
 .pos-abs-center {
   position: absolute;
   top: 40%;
+  cursor: pointer;
 }
 
 .left-arrow-team {
@@ -808,14 +804,90 @@ h1 .h1-color-edit {
 .right-arrow-team {
   position: absolute;
   right: 0;
-  padding-right: 105px;
 }
 
 .team-slider-status {
   align-self: flex-start;
   margin: 72px 0 0 0;
   padding-left: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
+
+.slider-numbers {
+  display: flex;
+  flex-direction: row;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #8D8D8D;
+  margin-right: 15px;
+}
+
+.number-current {
+  color: #00D3BE;
+}
+
+.slider-numbers span {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  padding: 0 5px;
+}
+
+.slider-linebar {
+  position: relative;
+  width: 216px;
+  margin-right: 20px;
+}
+
+.algn-center {
+  position: absolute;
+}
+
+.default-line {
+  width: 216px;
+  height: 2px;
+  background: rgba(51, 51, 51, 0.22);
+}
+
+.active-line {
+  max-width: 216px;
+  width: 43px;
+  height: 2px;
+  background: #00D3BE;
+}
+
+.slider-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.circle-button {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.circle-button:hover {
+  background: #F0F1F4;
+}
+
+.slider-left-button img,
+.slider-right-button img {
+  width: 6px;
+  height: 10px;
+}
+
 
 /* ----- END 5 Page*/
 /* ----- 6-Contacts page ----- */

@@ -3,10 +3,6 @@
     /*font-size: 16px;*/
   }
 
-  h1 {
-    font-size: 56px;
-    line-height: 59px;
-  }
 
   .about-us-block p, .contacts-block p {
     padding-right: 30px;
@@ -17,6 +13,38 @@
   .about-us-block span, .partners-block span, .contacts-block span {
     font-size: 40px;
   }
+
+  /*Wrapper*/
+  .wrapper {
+    grid-template-columns: 282px 1fr;
+    grid-template-rows: 130px 0fr;
+  }
+  /*--------*/
+
+  /* ---- HEADER ---- */
+  header {
+    height: 77px;
+    padding: 0 90px;
+    margin: 30px 0;
+  }
+
+  /* ----- 1-Main ----- */
+  .learn-more {
+    height: 100%;
+    padding-top: 150px;
+  }
+
+  h1 {
+    font-size: 62px;
+    line-height: 66px;
+  }
+
+  .read {
+    display: flex;
+    margin-top: 70px;
+  }
+
+  /* ----- END MAIN*/
 
   /* ----- 4-Services -----*/
 
@@ -59,9 +87,9 @@
 
 /* END Services*/
 
-@media screen and (max-height: 950px) {
+/*@media screen and (max-height: 950px) {
 
-}
+}*/
 
 @media screen and (max-width: 1400px) {
   /*paddings*/
