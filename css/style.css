@@ -142,6 +142,13 @@ nav {
   /* identical to box height */
   color: #FFFFFF;
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.button-help:hover {
+  color: #C73F3A;
+  background: #FFFFFF;
+  border: 2px solid #C73F3A;
 }
 
 .emergency-help {
@@ -158,8 +165,8 @@ nav {
   height: 29px;
 }
 
-/* END HEADER */
-/* ASIDE*/
+/* ----- END HEADER ----- */
+/* ----- ASIDE ----- */
 .nav-bar {
   transform: translateY(-105px);
   display: flex;
@@ -176,11 +183,21 @@ nav {
   color: #777777;
 }
 
-.nav-bar .active {
+.nav-bar .active,
+.card-profile .active {
   color: #00D3BE;
 }
 
-.nav-bar .active::before {
+.card-profile .active {
+  color: #333333;
+}
+
+.card-profile:hover .active {
+  color: #00D3BE;
+}
+
+.nav-bar .active::before,
+.card-profile .active::before {
   content: '';
   width: 25px;
   height: 2px;
@@ -193,13 +210,15 @@ nav {
   margin-bottom: 0;
 }
 
-/* END ASIDE*/
-/* ----- CONTENT -----*/
+/* ----- END ASIDE ----- */
+/* ----- CONTENT ----- */
 .container {
   width: 100%;
   height: 100%;
 }
 
+/* ----- END CONTENT ----- */
+/* -----------------------------------------------------------------------------*/
 /* ----- 1-page MAIN ----- */
 .main-page {
   position: relative;
@@ -375,7 +394,7 @@ h1 .h1-color-edit {
 
 /* ----- END 1 Page ----- */
 /* ----- 2-page About us -----*/
-.about-us {
+.about-us-page {
   position: relative;
   height: inherit;
   display: grid;
@@ -427,7 +446,8 @@ h1 .h1-color-edit {
 
 .about-us-block span,
 .partners-block span,
-.contacts-block span {
+.contacts-block span,
+.team-block span {
   font-family: 'Bebas Neue', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -441,7 +461,8 @@ h1 .h1-color-edit {
 }
 
 .about-us-block p,
-.contacts-block p {
+.contacts-block p,
+.sponsor-container p {
   max-width: 604px;
   margin-top: 46px;
   font-style: normal;
@@ -462,8 +483,98 @@ h1 .h1-color-edit {
 }
 
 /* ----- END 2 Page ----- */
-/* ----- 3-page Services -----*/
-.services {
+/* ----- 3-Spansor / Partners page -----*/
+
+.sponsor-page {
+  position: relative;
+  height: inherit;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sponsor-imageBlock {
+  position: relative;
+}
+
+.bg-color-sponsor {
+  /*max-width: 495px;*/
+  width: 70%;
+  /*max-height: 610px;*/
+  height: 65%;
+  background: #00D3BE;
+}
+
+.bg-sponsor {
+  position: absolute;
+  top: 100px;
+  right: 145px;
+  /*max-width: 560px;*/
+  width: 68%;
+  /*max-height: 642px;*/
+  height: 70%;
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.14);
+}
+
+.picture-sponsor {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dotts-sponsor {
+  position: absolute;
+  z-index: -1;
+  top: 50px;
+  right: 80px;
+  width: 311px;
+  height: 616px;
+  background: url(../img/dotts-about-us.svg) no-repeat;
+}
+
+.sponsor-container {
+  padding-top: 5px;
+}
+
+.sponsor-phone {
+  width: 90%;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sponsor-telephone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 310px;
+  width: 100%;
+}
+
+.sponsor-telephone img {
+  margin-right: 24px;
+  max-width: 22px;
+  max-height: 22px;
+  width: 100%;
+  height: 100%;
+}
+
+.sponsor-telephone a {
+  max-width: 260px;
+  max-height: 22px;
+  width: 100%;
+  height: 100%;
+}
+
+.read-sponsor {
+  display: flex;
+}
+
+
+
+/* ----- END 3 Page ----- */
+/* ----- 4-Services page -----*/
+.services-page {
   position: relative;
   height: inherit;
   display: grid;
@@ -493,6 +604,13 @@ h1 .h1-color-edit {
   height: 2px;
   background: rgba(51, 51, 51, 0.22);
   margin: 15px 0 35px 0;
+}
+
+.line-block-team {
+  width: 64px;
+  height: 2px;
+  background: rgba(51, 51, 51, 0.22);
+  margin: 15px 0 60px 0;
 }
 
 .services-cards {
@@ -611,10 +729,91 @@ h1 .h1-color-edit {
   background: url(../img/dotts-services.svg) no-repeat;
 }
 
-/* ----- END 3 Page ----- */
-/* ----- 4 -----*/
 /* ----- END 4 Page*/
-/* ----- 5 Contacts ----- */
+/* ----- 5-Team page ----- */
+.team-block {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.team-slider {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 105px 0 0;
+}
+
+.team-slider-cards {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+}
+
+.card-profile {
+  max-width: 380px;
+  width: 100%;
+  margin-right: 5%;
+}
+
+.card-profile:last-child {
+  margin-right: 0;
+}
+
+.photo-profile {
+  max-width: 380px;
+  max-height: 412px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.teammate-name {
+  margin-top: 28px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.teammate-job {
+  margin-top: 8px;
+  padding-left: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #8D8D8D;
+}
+
+.pos-abs-center {
+  position: absolute;
+  top: 40%;
+}
+
+.left-arrow-team {
+  left: 0;
+}
+
+.right-arrow-team {
+  position: absolute;
+  right: 0;
+  padding-right: 105px;
+}
+
+.team-slider-status {
+  align-self: flex-start;
+  margin: 72px 0 0 0;
+  padding-left: 5%;
+}
+
+/* ----- END 5 Page*/
+/* ----- 6-Contacts page ----- */
 .contacts-page {
   position: relative;
   height: inherit;

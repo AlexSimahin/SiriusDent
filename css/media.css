@@ -18,9 +18,9 @@
     font-size: 40px;
   }
 
-  /* ----- Services -----*/
+  /* ----- 4-Services -----*/
 
-  .services {
+  .services-page {
     grid-template-columns: 482px 1fr;
   }
 
@@ -86,7 +86,7 @@
 
   /* ----- 4-Services -----*/
 
-  .services {
+  .services-page {
     grid-template-columns: 410px 1fr;
   }
 
@@ -134,5 +134,13 @@
 
 /* END Services*/
 
+
+}
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1024px) {
 
 }
