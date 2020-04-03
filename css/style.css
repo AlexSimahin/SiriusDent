@@ -46,7 +46,7 @@ body {
   overflow: hidden;
   display: grid;
   grid-template-columns: 330px 1fr;
-  grid-template-rows: 150px 0fr;
+  grid-template-rows: 180px 0fr;
 }
 
 .header {
@@ -533,6 +533,11 @@ h1 .h1-color-edit {
 
 .sponsor-container {
   padding-top: 5px;
+}
+
+.sponsor-container img {
+  max-width: 439px;
+  width: 100%;
 }
 
 .sponsor-phone {
