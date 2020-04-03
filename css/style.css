@@ -486,7 +486,7 @@ h1 .h1-color-edit {
   height: inherit;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .sponsor-imageBlock {
