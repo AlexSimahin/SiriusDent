@@ -1,7 +1,4 @@
 @media screen and (max-width: 1650px) {
-  html {
-    /*font-size: 16px;*/
-  }
 
   .about-us-block p,
   .sponsor-container p {
@@ -24,8 +21,8 @@
     grid-template-columns: 282px 1fr;
     grid-template-rows: 130px 0fr;
   }
-
   /*--------*/
+
   /* ---- HEADER ---- */
   header {
     height: 77px;
@@ -326,25 +323,149 @@
 
 @media screen and (max-width: 1400px) {
 
-  /*paddings*/
-  header {
-    padding: 0 80px;
-  }
-
-  .nav-bar {
-    padding: 0 0 0 80px;
-  }
-
-  /*--------*/
+  /*Wrapper*/
   .wrapper {
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 260px 1fr;
+    grid-template-rows: 130px 0fr;
+  }
+  /*--------*/
+
+  /* ---- HEADER ---- */
+  header {
+    height: 77px;
+    padding: 0 70px;
+    margin: 25px 0;
   }
 
-  /* ----- 1-Main -----*/
-  h1 {
-    font-size: 46px;
-    line-height: 49px;
+  .left-side {
+    width: 400px;
   }
+
+  .right-side {
+    width: 640px;
+    justify-content: space-between;
+  }
+
+  .contact-numbers {
+    width: 185px;
+  }
+
+  .menu-text {
+    font-size: 17px;
+  }
+
+  .logo {
+    width: 191px;
+    height: 66px;
+  }
+
+  .telephone {
+    margin-left: 18px;
+  }
+
+  .telephone span {
+    font-size: 17px;
+  }
+
+  .button-help {
+    width: 207px;
+    height: 51px;
+    font-size: 21px;
+  }
+
+  .emergency-help {
+    padding: 0 30px;
+  }
+
+  .social {
+    width: 133px;
+  }
+
+  .social a {
+    width: 28px;
+    height: 28px;
+  }
+
+  /* ----- END HEADER ----- */
+  /* ----- ASIDE ----- */
+  .nav-bar {
+    padding: 0 0 0 70px;
+  }
+
+  .nav-bar a {
+    margin-bottom: 26px;
+    font-size: 17px;
+  }
+
+  /* ----- END ASIDE*/
+  /* ----- 1-Main ----- */
+  .learn-more {
+    max-height: 825px;
+    height: 100%;
+    padding-top: 150px;
+  }
+
+  h1 {
+    font-size: 53px;
+    line-height: 56px;
+  }
+
+  .read {
+    display: flex;
+    margin-top: 70px;
+  }
+
+  .read-more {
+    width: 172px;
+    height: 52px;
+    font-size: 21px;
+  }
+
+  .arrow-href {
+    width: 52px;
+    height: 52px;
+  }
+
+  .arrow-href img {
+    width: 22px;
+    height: 16px;
+  }
+
+  .info {
+    width: 353px;
+    height: 133px;
+    padding: 24px 0 0 42px;
+  }
+
+  .info-number {
+    font-size: 21px;
+  }
+
+  .block-line {
+    width: 36px;
+    height: 2px;
+    margin: 7px 0 18px 0;
+  }
+
+  .info-method {
+    font-size: 24px;
+  }
+
+  .slider {
+    height: 133px;
+  }
+
+  .arrow-slider {
+    width: 133px;
+    height: 133px;
+  }
+
+  .dotts-bg {
+    width: 354px;
+    height: 203px;
+  }
+
+  /* ----- END MAIN*/
 
   /* ----- 4-Services -----*/
   .services-page {
