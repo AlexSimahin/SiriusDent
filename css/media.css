@@ -1,4 +1,4 @@
-@media screen and (max-width: 1650px) {
+@media (max-width: 1920px) {
 
   .about-us-block p,
   .sponsor-container p {
@@ -345,7 +345,7 @@
   }
 }
 
-@media screen and (max-width: 1400px) {
+@media (max-width: 1600px) {
 
   .about-us-block p,
   .sponsor-container p {
@@ -568,6 +568,10 @@
 
   /* ----- END 3 Page ----- */
   /* ----- 4-Services -----*/
+  .services-block {
+    padding-top: 30px;
+  }
+
   .services-page {
     grid-template-columns: 410px 1fr;
   }
@@ -697,7 +701,7 @@
   /* ----- END 6 Page ----- */
 }
 
-@media screen and (max-width: 1280px) {
+@media (max-width: 1280px) {
 
   .about-us-block p,
   .sponsor-container p {
@@ -930,20 +934,23 @@
 
   /* ----- END 3 Page ----- */
   /* ----- 4-Services -----*/
-  /*
+  .services-block {
+    padding-top: 20px;
+  }
+
   .services-page {
-    grid-template-columns: 410px 1fr;
+    grid-template-columns: 352px 1fr;
   }
 
   .services-cards {
-    width: 605px;
+    width: 520px;
   }
 
   .first-level-cards,
   .second-level-cards,
   .third-level-cards {
-    width: 180px;
-    height: 440px;
+    width: 150px;
+    height: 375px;
   }
 
   .second-level-cards {
@@ -955,13 +962,13 @@
   }
 
   .card {
-    width: 180px;
-    height: 200px;
+    width: 150px;
+    height: 170px;
   }
 
   .card-text {
-    font-size: 20px;
-    width: 150px;
+    font-size: 16px;
+    width: 120px;
   }
 
   .info-area {
@@ -969,24 +976,24 @@
   }
 
   .left-colorBlock {
-    height: 200px;
+    height: 170px;
   }
 
   .card-icon {
-    margin-bottom: 15px;
-    width: 70px;
-    height: 70px;
+    margin-bottom: 12px;
+    width: 60px;
+    height: 60px;
   }
 
   .bg-services {
-    min-width: 395px;
-    left: 24%;
+    min-width: 360px;
+    right: 0;
   }
 
   .dotts-services {
     left: 185px;
     max-width: 460px;
-  }*/
+  }
 
   /* END Services*/
   /* ----- 5-Team page ----- */
@@ -1074,7 +1081,7 @@
 
 }
 
-@media screen and (max-width: 1024px) {
+@media (max-width: 1024px) {
 
   .about-us-block p,
   .sponsor-container p {
@@ -1306,38 +1313,41 @@
 
   /* ----- END 3 Page ----- */
   /* ----- 4-Services -----*/
-  /*
+  .services-block {
+    padding-top: 15px;
+  }
+
   .services-page {
-    grid-template-columns: 410px 1fr;
+    grid-template-columns: 288px 1fr;
   }
 
   .services-cards {
-    width: 605px;
+    width: 425px;
   }
 
   .first-level-cards,
   .second-level-cards,
   .third-level-cards {
-    width: 180px;
-    height: 440px;
+    width: 125px;
+    height: 305px;
   }
 
   .second-level-cards {
-    transform: translateY(30px);
+    transform: translateY(20px);
   }
 
   .third-level-cards {
-    transform: translateY(60px);
+    transform: translateY(40px);
   }
 
   .card {
-    width: 180px;
-    height: 200px;
+    width: 125px;
+    height: 140px;
   }
 
   .card-text {
-    font-size: 20px;
-    width: 150px;
+    font-size: 16px;
+    width: 124px;
   }
 
   .info-area {
@@ -1345,24 +1355,23 @@
   }
 
   .left-colorBlock {
-    height: 200px;
+    height: 140px;
   }
 
   .card-icon {
-    margin-bottom: 15px;
-    width: 70px;
-    height: 70px;
+    margin-bottom: 10px;
+    width: 50px;
+    height: 50px;
   }
 
   .bg-services {
-    min-width: 395px;
-    left: 24%;
+    min-width: 280px;
   }
 
   .dotts-services {
     left: 185px;
     max-width: 460px;
-  }*/
+  }
 
   /* END Services*/
   /* ----- 5-Team page ----- */

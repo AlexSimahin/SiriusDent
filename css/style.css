@@ -19,8 +19,6 @@
   src: url(../fonts/BebasNeueBold.ttf);
 }
 
-/*font-family: 'Roboto', sans-serif;
-font-family: 'Bebas Neue', sans-serif;*/
 /* ----- End Fonts ----- */
 /* ----- Quick Flex ----- */
 .d-flex {
@@ -29,10 +27,6 @@ font-family: 'Bebas Neue', sans-serif;*/
 }
 
 /* ----------- */
-html {
-  /*font-size: 20px;*/
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   color: #333333;
@@ -40,10 +34,8 @@ body {
 }
 
 .wrapper {
-  /*max-width: 1920px;*/
   width: 100%;
   height: 100vh;
-  /*margin: 0 auto;*/
   overflow: hidden;
   display: grid;
   grid-template-columns: 330px 1fr;
@@ -232,9 +224,6 @@ nav {
   position: relative;
   height: inherit;
   display: flex;
-  /*display: grid;
-  grid-template-columns: 1fr 0.8fr 1fr;
-  grid-template-rows: 1fr;*/
 }
 
 .left-side-main {
@@ -310,10 +299,6 @@ h1 .h1-color-edit {
 }
 
 .bg-imager {
-  /*grid-column-start: 2;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;*/
   position: relative;
   width: 100%;
   height: 100%;
@@ -418,9 +403,7 @@ h1 .h1-color-edit {
 }
 
 .bg-color-about-us {
-  /*max-width: 495px;*/
   width: 70%;
-  /*max-height: 610px;*/
   height: 65%;
   background: #00D3BE;
 }
@@ -499,9 +482,7 @@ h1 .h1-color-edit {
 }
 
 .bg-color-sponsor {
-  /*max-width: 495px;*/
   width: 70%;
-  /*max-height: 610px;*/
   height: 65%;
   background: #00D3BE;
 }
@@ -510,9 +491,7 @@ h1 .h1-color-edit {
   position: absolute;
   top: 100px;
   right: 145px;
-  /*max-width: 560px;*/
   width: 68%;
-  /*max-height: 642px;*/
   height: 70%;
   box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.14);
 }
@@ -702,7 +681,6 @@ h1 .h1-color-edit {
   right: 0;
   min-width: 526px;
   width: 55%;
-  /*max-height: 786px;*/
   height: 83%;
   background: url(../img/services-photo.png) no-repeat;
   background-position: bottom left;
@@ -905,9 +883,7 @@ h1 .h1-color-edit {
 .bg-color-contacts {
   position: static;
   z-index: 1;
-  /*max-width: 440px;*/
   width: 64%;
-  /*max-height: 610px;*/
   height: 64%;
   background: #00D3BE;
 }
@@ -918,9 +894,7 @@ h1 .h1-color-edit {
   z-index: 99;
   top: 150px;
   left: 80px;
-  /*max-width: 552px;*/
   width: 72%;
-  /*max-height: 506px;*/
   height: 60%;
   box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.14);
 }
