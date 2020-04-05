@@ -155,6 +155,11 @@
     height: 133px;
   }
 
+  .arrow-slider img {
+    width: 16px;
+    height: 27px;
+  }
+
   .dotts-bg {
     width: 354px;
     height: 203px;
@@ -505,6 +510,11 @@
   .arrow-slider {
     width: 113px;
     height: 113px;
+  }
+
+  .arrow-slider img {
+    width: 14px;
+    height: 25px;
   }
 
   .dotts-bg {
@@ -866,6 +876,11 @@
   .arrow-slider {
     width: 103px;
     height: 103px;
+  }
+
+  .arrow-slider img {
+    width: 12px;
+    height: 23px;
   }
 
   .dotts-bg {
@@ -1260,6 +1275,11 @@
   .arrow-slider {
     width: 83px;
     height: 83px;
+  }
+
+  .arrow-slider img {
+    width: 10px;
+    height: 21px;
   }
 
   .dotts-bg {
