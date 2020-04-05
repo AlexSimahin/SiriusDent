@@ -1029,27 +1029,32 @@
   }
 
   .team-slider-status {
-    margin: 46px 0 0 0;
+    margin: 36px 0 0 0;
     width: 338px;
   }
 
-  .default-line {
+  .algn-center {
     width: 144px;
-    height: 2px;
-    background: rgba(51, 51, 51, 0.22);
+    height: 1px;
   }
 
   .active-line {
-    max-width: 144px;
-    width: 23px;
-    height: 2px;
-    background: #00D3BE;
+    max-width: 50px;
   }
 
   .pos-abs-center {
-    width: 18px;
-    height: 18px;
-}
+    width: 17px;
+    height: 17px;
+  }
+
+  .slider-numbers {
+    font-size: 18px;
+  }
+
+  .circle-button {
+    width: 30px;
+    height: 30px;
+  }
 
   /* ----- END 5 Page ----- */
   /* ----- 6-Contacts page ----- */
@@ -1097,8 +1102,8 @@
   .schedule-block-days {
     font-size: 20px;
   }
-  /* ----- END 6 Page ----- */
 
+  /* ----- END 6 Page ----- */
 }
 
 @media (max-width: 1024px) {
@@ -1417,21 +1422,35 @@
   }
 
   .team-slider-status {
-    margin: 46px 0 0 0;
-    width: 338px;
+    margin: 26px 0 0 0;
+    width: 305px;
   }
 
-  .default-line {
-    width: 144px;
-    height: 2px;
-    background: rgba(51, 51, 51, 0.22);
+  .algn-center {
+    width: 130px;
+    height: 1px;
   }
 
   .active-line {
-    max-width: 144px;
-    width: 23px;
-    height: 2px;
-    background: #00D3BE;
+    max-width: 20px;
+  }
+
+  .pos-abs-center {
+    width: 16px;
+    height: 16px;
+  }
+
+  .slider-numbers {
+    font-size: 16px;
+  }
+
+  .circle-button {
+    width: 24px;
+    height: 24px;
+  }
+
+  .slider-right-button {
+    margin-left: 8px;
   }
 
   /* ----- END 5 Page ----- */
@@ -1480,10 +1499,8 @@
   .schedule-block-days {
     font-size: 20px;
   }
+
   /* ----- END 6 Page ----- */
-
 }
 
-@media (max-width: 980px) {
-  
-}
+@media (max-width: 980px) {}

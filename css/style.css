@@ -901,6 +901,10 @@ h1 .h1-color-edit {
   background: #F0F1F4;
 }
 
+.slider-right-button {
+  margin-left: 10px;
+}
+
 .slider-left-button img,
 .slider-right-button img {
   width: 6px;
