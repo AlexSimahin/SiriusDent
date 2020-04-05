@@ -82,6 +82,11 @@ body {
   bottom: 0;
   /*height: 85vh;*/
   overflow-y: overlay;
+  padding-top: 8%;
+}
+.container-x {
+  width: 100%;
+  height: 100%;
 }
 
 .w-h-size-page {
