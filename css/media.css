@@ -29,6 +29,11 @@
     padding: 0 90px;
   }
 
+  .about-us-block,
+  .sponsor-container {
+    padding-right: 90px;
+  }
+
   .left-side {
     width: 385px;
   }
@@ -302,7 +307,7 @@
   /* END 4-Services*/
   /* ----- 5-Team page ----- */
   .team-block {
-    padding: 50px 90px 0 0;
+    padding: 50px 110px 0 0;
   }
 
   /* ----- END 5 Page ----- */
@@ -374,6 +379,11 @@
   /* ---- HEADER ---- */
   header {
     padding: 0 70px;
+  }
+
+  .about-us-block,
+  .sponsor-container {
+    padding-right: 70px;
   }
 
   .left-side {
@@ -632,7 +642,7 @@
   /* END Services*/
   /* ----- 5-Team page ----- */
   .team-block {
-    padding: 35px 70px 0 0;
+    padding: 35px 100px 0 0;
   }
 
   .teammate-name {
@@ -730,6 +740,11 @@
   /* ---- HEADER ---- */
   header {
     padding: 0 50px;
+  }
+
+  .about-us-block,
+  .sponsor-container {
+    padding-right: 50px;
   }
 
   .left-side {
@@ -998,7 +1013,7 @@
   /* END Services*/
   /* ----- 5-Team page ----- */
   .team-block {
-    padding: 35px 50px 0 0;
+    padding: 35px 110px 0 0;
   }
 
   .teammate-name {
@@ -1030,6 +1045,11 @@
     height: 2px;
     background: #00D3BE;
   }
+
+  .pos-abs-center {
+    width: 18px;
+    height: 18px;
+}
 
   /* ----- END 5 Page ----- */
   /* ----- 6-Contacts page ----- */
@@ -1110,6 +1130,11 @@
   /* ---- HEADER ---- */
   header {
     padding: 0 35px;
+  }
+
+  .about-us-block,
+  .sponsor-container {
+    padding-right: 35px;
   }
 
   .left-side {
@@ -1376,7 +1401,7 @@
   /* END Services*/
   /* ----- 5-Team page ----- */
   .team-block {
-    padding: 35px 50px 0 0;
+    padding: 35px 105px 0 0;
   }
 
   .teammate-name {

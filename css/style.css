@@ -19,6 +19,11 @@
   src: url(../fonts/BebasNeueBold.ttf);
 }
 
+::-webkit-scrollbar {
+    width: 0px !important;
+    height: 0px !important;
+    background-color: #2a2633 !important;
+}
 /* ----- End Fonts ----- */
 /* ----- Quick Flex ----- */
 .d-flex {
@@ -71,11 +76,11 @@ body {
 }
 
 .container {
-  width: 86vw;
+  /*width: 86vw;*/
   position: fixed;
   height: 100%;
   bottom: 0;
-  height: 85vh;
+  /*height: 85vh;*/
   overflow-y: overlay;
 }
 
@@ -83,7 +88,13 @@ body {
   height: 85vh;
   width: 86vw;
   overflow: hidden;
+  margin-bottom: 200px;
 }
+.w-h-size-page:last-child {
+  margin-bottom: 0;
+  height: 80vh;
+}
+
 
 /* ----- HEADER ----- */
 .bg-blur-nav {
@@ -738,7 +749,7 @@ h1 .h1-color-edit {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 60px 105px 0 0;
+  padding: 60px 150px 0 0;
 }
 
 .team-slider {
